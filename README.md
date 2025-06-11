@@ -45,6 +45,8 @@ The 5-shot prompting is in .txt file on Qwen model.
 
 I used 5-shot prompting to get the answer as shown below-
 
+Prompt format-:As per the format provided below, answer the following question exactly in the same structure:
+
 # Example-
 
 {
