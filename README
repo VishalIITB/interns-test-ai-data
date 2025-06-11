@@ -1,0 +1,9 @@
+## Concept Extraction from Exam Questions
+
+## How It Works
+1.Keyword Matching using subject-specific concept dictionaries.
+
+2.Named Entity Recognition with spaCy to detect specific entities (like "Ashoka", "GDP").
+
+3.TF-IDF Similarity with concept descriptions to catch semantic matches if all else fails
+
