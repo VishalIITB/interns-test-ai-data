@@ -1,9 +1,43 @@
-## Concept Extraction from Exam Questions
+# 🔍 Concept Extraction from Competitive Exam Questions
+
+**Author:** Vishal Kumar  
+**Roll No.:** 22b0687  
+**Submission for:** AD Co – AI/ML Research & Data Engineer 
+**GitHub Repository:** [https://github.com/VishalIITB/interns-test-ai-data](https://github.com/VishalIITB/interns-test-ai-data)
+
+---
+
+## Objective
+
+The objective of this assignment is to simulate an **LLM-driven concept extraction pipeline** that can analyze competitive exam questions (e.g., UPSC, NEET, JEE) and identify the **underlying conceptual tags** they test.
+
+---
 
 ## How It Works
-1.Keyword Matching using subject-specific concept dictionaries.
 
-2.Named Entity Recognition with spaCy to detect specific entities (like "Ashoka", "GDP").
+The pipeline uses a hybrid approach combining:
+- **Keyword Matching**
+- **Named Entity Recognition (NER)**
+- **TF-IDF Vector Similarity**
+- **(Optional) LLM Simulation for fallback**
 
-3.TF-IDF Similarity with concept descriptions to catch semantic matches if all else fails
+Each question is mapped to one or more conceptual tags based on subject-specific dictionaries.
+
+---
+
+## Project Structure
+nterns-test-ai-data/
+├── concepts/
+│ └── <subject>.json # Subject-wise keyword and concept definitions
+├── data/
+│ └── input_questions.csv # Raw questions across subjects
+├── outputs/
+│ └── output_concepts_<subject>.csv
+├── concept_extractor.py # Core logic for concept mapping
+├── csv_reader.py # CSV parsing helper
+├── llm_interface.py # Stub for LLM-based fallback (optional)
+├── main.py # CLI to run the full pipeline
+├── README.md # This file
+
+
 
