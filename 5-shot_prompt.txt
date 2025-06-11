@@ -1,0 +1,50 @@
+  {
+        "Question Number": 1,
+        "Question": "Which of the following terms is associated with Buddhist monastic establishments?",
+        "Option A": "Vihara",
+        "Option B": "Stupa",
+        "Option C": "Chaitya",
+        "Option D": "Mandapa",
+        "Ans": "A",
+        "Concept": "Buddhism"
+    },
+    {
+        "Question Number": 2,
+        "Question": "Which of the following was a feature of the Harappan civilization?",
+        "Option A": "City planning",
+        "Option B": "Iron tools",
+        "Option C": "Vedic rituals",
+        "Option D": "Temple worship",
+        "Ans": "A",
+        "Concept": "Harappan Civilization"
+    },
+    {
+        "Question Number": 3,
+        "Question": "Who was the author of Arthashastra during the Mauryan period?",
+        "Option A": "Kautilya",
+        "Option B": "Ashoka",
+        "Option C": "Chandragupta",
+        "Option D": "Megasthenes",
+        "Ans": "A",
+        "Concept": "Kautilya's Arthashastra"
+    },
+    {
+        "Question Number": 4,
+        "Question": "Which river was associated with the early Vedic civilization?",
+        "Option A": "Ganga",
+        "Option B": "Yamuna",
+        "Option C": "Sarasvati",
+        "Option D": "Krishna",
+        "Ans": "C",
+        "Concept": "Vedic Civilization"
+    },
+    {
+        "Question Number": 5,
+        "Question": "What was the main occupation of the people in the Rigvedic period?",
+        "Option A": "Hunting",
+        "Option B": "Fishing",
+        "Option C": "Agriculture and Cattle Rearing",
+        "Option D": "Metal work",
+        "Ans": "C",
+        "Concept": "Vedic Economy"
+    }
