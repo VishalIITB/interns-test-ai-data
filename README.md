@@ -1,8 +1,8 @@
 #  Concept Extraction from Competitive Exam Questions
 
 **Author:** Vishal Kumar  
-**Roll No.:** 210070074  
-**Submission for:** AD Co – AI Studio Internship Assignment  
+**Roll No.:** 22b0687  
+**Submission for:**  AI/ML Research & Data Engineer  
 **GitHub Repository:** [https://github.com/VishalIITB/interns-test-ai-data](https://github.com/VishalIITB/interns-test-ai-data)
 
 ---
@@ -25,16 +25,19 @@ Each question is mapped to one or more conceptual tags based on subject-specific
 
 ---
 
-##  Project Structure
-interns-test-ai-data/
-├── concepts/
-│ └── <subject>.json # Subject-wise keyword and concept definitions
-├── data/
-│ └── input_questions.csv # Raw questions across subjects
-├── outputs/
-│ └── output_concepts_<subject>.csv
-├── concept_extractor.py # Core logic for concept mapping
-├── csv_reader.py # CSV parsing helper
-├── llm_interface.py # Stub for LLM-based fallback (optional)
-├── main.py # CLI to run the full pipeline
-├── README.md # This file
+## Folder Structure
+
+```
+.
+├── main.py                 # Entry point, handles CLI and user code
+├── llm_api.py              # Handles Anthropic API calls, loads API key from .env
+├── csv_reader.py           # Reads CSV from resources/ and returns data
+├── resources/              # Folder containing subject CSVs (ancient_history.csv, math.csv, etc.)
+├── outputs                 # Stores results
+├── requirements.txt        # Python dependencies
+├── Makefile                # Run commands
+└── README.md               # Instructions
+```
+
+
+# LLM Prompt Format Used
