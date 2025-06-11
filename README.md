@@ -41,3 +41,18 @@ Each question is mapped to one or more conceptual tags based on subject-specific
 
 
 # LLM Prompt Format Used
+The 5-shot prompting is in .txt file.
+I used 5-shot prompting to get the answer as shown below-
+# Example-
+
+{
+"Question Number": 6,
+"Question": "Consider the following pairs: Historical place Well - known for 1. Burzahom : Rock-cut shrines 2. Chandra-ketugarh : Terracotta art 3. Ganeshwar : Copper artefacts Which of the pairs given above is/are correctly matched?",
+"Option A": "1 only",
+"Option B": "1 and 2",
+"Option C": "3 only",
+"Option D": "2 and 3",
+"Ans": "D",
+"Concept": "Indian Archaeology"
+}
+
